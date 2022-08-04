@@ -19,11 +19,12 @@
         {
             if (arr[i].Length < m)
             {
-                Console.Write ($"{arr[i]}  ");
+                Console.Write ($"{arr[i]}--  ");
             }
+            
 
         }
-
+        
     }
 
 
