@@ -2,6 +2,14 @@
 {
     public static void Main()
     {
+          string[] arr = new string[5];
+        int m = 3;
+        for (int i = 0; i <= arr.Count() - 1; i++)
+        {
+            arr[i] = Console.ReadLine();
+        }
+        mass (arr, m);
+
 
     }
 
@@ -9,7 +17,7 @@
     {
 
 
-        
+
     }
 
 
