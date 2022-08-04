@@ -15,8 +15,14 @@
 
      public static void mass(string[] arr, int m)
     {
+         for (int i = 0; i <= arr.Count() - 1; i++)
+        {
+            if (arr[i].Length < m)
+            {
+                Console.Write ($"{arr[i]}  ");
+            }
 
-
+        }
 
     }
 
